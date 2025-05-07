@@ -1,11 +1,11 @@
 
-# 📊 Customer Churn Prediction
+# Customer Churn Prediction
 
 This project analyzes customer behavior and predicts churn using a machine learning model based on [telecom service data]( https://www.kaggle.com/datasets/hassanelfattmi/why-do-customers-leave-can-you-spot-the-churners), It includes exploratory data analysis (EDA), preprocessing, and training a Random Forest classifier, with a focus on contract type, satisfaction, revenue, and customer demographics.
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 Customer churn prediction is critical for customer retention strategies. This project aims to:
 
@@ -16,24 +16,24 @@ Customer churn prediction is critical for customer retention strategies. This pr
 
 ---
 
-## 🧱 Project Structure
+## Project Structure
 
 ```
-📁 data/
+ data/
    ├── Customer_Info.csv
    ├── Online_Services.csv
    ├── Payment_Info.csv
    ├── Service_Options.csv
    └── Status_Analysis.csv
 
-📄 churn_analysis.py     # Data loading, preprocessing, model training
-📄 acc.csv               # Model predictions and classification accuracy
-📄 Churn_EDA.pbix        # Explanatory Data analysis in PowerBI
+ churn_analysis.py     # Data loading, preprocessing, model training
+ acc.csv               # Model predictions and classification accuracy
+ Churn_EDA.pbix        # Explanatory Data analysis in PowerBI
 ```
 
 ---
 
-## 🛠 Features
+##  Features
 
 - **EDA Dashboard** (Power BI) with insights on:
   - Contract type vs churn
@@ -47,7 +47,7 @@ Customer churn prediction is critical for customer retention strategies. This pr
 
 ---
 
-## 📈 Model Performance
+##  Model Performance
 
 - **Accuracy**: ~80.9% correct predictions on test split
 - Balanced performance with insights into misclassifications (classified vs unclassified)
@@ -55,7 +55,7 @@ Customer churn prediction is critical for customer retention strategies. This pr
 
 ---
 
-## 🔍 How to Use
+##  How to Use
 
 1. **Clone the repo**:
    ```bash
@@ -76,7 +76,7 @@ Customer churn prediction is critical for customer retention strategies. This pr
 
 ---
 
-## 🔧 Requirements
+##  Requirements
 
 - Python 3.7+
 - pandas, numpy, scikit-learn
@@ -88,7 +88,7 @@ pip install -r requirements.txt
 
 ---
 
-## ✅ Future Improvements
+##  Future Improvements
 
 - Implement feature importance analysis
 - Use precision/recall and ROC-AUC metrics
@@ -97,7 +97,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📄 License
+##  License
 
 This project is open-source and available under the MIT License.
 
