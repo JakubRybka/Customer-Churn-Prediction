@@ -103,7 +103,7 @@ This project is open-source and available under the MIT License.
 
 ---
 
-## 👤 Authors
+##  Authors
 
 - [Jakub Rybka](https://github.com/JakubRybka)
 - [Zofia Szczepaniak](https://github.com/ZofiaSzczepaniak)
